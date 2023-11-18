@@ -18,3 +18,5 @@
 └── lyrics -> /lyrics/index.html: list of files
     └── artist-song.md -> /lyrics/artist-song/
 ```
+
+TODO: on v3 eleventy release change package.json, need v3 for esm reasons
