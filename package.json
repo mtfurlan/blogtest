@@ -1,0 +1,10 @@
+{
+  "name": "blogtest",
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "scripts": {
+    "serve": "eleventy --serve"
+  }
+}
