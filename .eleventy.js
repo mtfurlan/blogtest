@@ -8,6 +8,8 @@ export default (eleventyConfig) => {
 
   eleventyConfig.amendLibrary("md", mdLib => mdLib.set({ breaks: true }));
 
+  eleventyConfig.addPassthroughCopy('assets');
+
   return {
     dir: {
       input: './',

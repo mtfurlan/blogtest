@@ -1,11 +1,14 @@
 ---
 layout: layouts/base
 ---
-hello
-world
+
+<img src="/assets/Corridor9875pixani-construction.gif" alt="">
+
+Very construction.
+Much site.
 
 We have [blog](blog/) and [rss](feed.xml).
 
 [lyrics](lyrics/)
 
-Also, [meta readme](README).
+Also, [some meta notes](README).
