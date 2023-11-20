@@ -1,0 +1,25 @@
+---
+layout: layouts/base
+---
+<article>
+    <p>
+        this is an lyric sheet for
+        {% if songURL %}
+            <a href="{{ songURL }}">{{title}}</a></p>
+        {% else %}
+            {{ title }}
+        {% endif %}
+    </p>
+    <p>
+        <a href="../">go back to lyrics list</a></p>
+        <a href="/">go home</a></p>
+    </p>
+
+    <div id="lyrics">
+        {{ content }}
+    </div>
+
+    <p>Please email corrections to lyrics@ this domain</p>
+</article>
+
+
