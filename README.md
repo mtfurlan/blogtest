@@ -1,5 +1,6 @@
 # blogtest
 
+## Site Layout maybe
 ```
 .
 ├── README.md
@@ -19,4 +20,19 @@
     └── artist-song.md -> /lyrics/artist-song/
 ```
 
-TODO: on v3 eleventy release change package.json, need v3 for esm reasons
+## TODO:
+* on v3 eleventy release change package.json, need v3 for esm reasons
+
+## Page Titles
+Literature Review of Blog Page Titles
+* qntm: `$pageTitle @ Things Of Interest`
+* computer.rip: `$date $pageTitle`
+* cks: `Chris's Wiki :: $slug`
+* rachelbythebay: `$pageTitle`
+* jwz: `jwz: $pageTitle`
+* Schneier on Security: `$pageTitle - Schneier on Security`
+* Tom Francis Regrets This Already: `$pageTitle - a post on Tom Francis' blog`
+* anitpope: `$pageTitle - Charlie's Diary`
+* KrebsonSecurity: `$pageTitle - Krebs on Security`
+* bldblog: `$pageTitle - BLDBLOG`
+* elm-chan.org: Most leaf pages are `$pageTitle`, most categories are `ELM - $category`
