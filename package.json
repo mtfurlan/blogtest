@@ -8,6 +8,7 @@
     "title-case": "^4.1.2"
   },
   "scripts": {
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "build": "NODE_ENV=production npx eleventy"
   }
 }
