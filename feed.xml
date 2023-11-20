@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+    <title>sczie site</title>
+    <subtitle>I dunno something</subtitle>
+    <link href="https://test.technicallycompetent.com/feed.xml" rel="self"/>
+    <link href="https://test.technicallycompetent.com
+/"/>
+    <updated>2023-11-20T03:50:35Z</updated>
+    <id>https://test.technicallycompetent.com
+/</id>
+    <author>
+        <name>sczie</name>
+        <email>contact@technicallycompetent.com</email>
+    </author>
+    
+    <entry>
+        <title>Foo</title>
+        <link href="https://test.technicallycompetent.com/blog/foo/"/>
+        <updated>2023-11-20T03:50:35Z</updated>
+        <id>https://test.technicallycompetent.com/blog/foo/</id>
+        <content type="html">&lt;p&gt;foo
+bar&lt;/p&gt;
+</content>
+    </entry>
+</feed>
