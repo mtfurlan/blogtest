@@ -1,8 +1,6 @@
-import * as fs from 'fs';
-
 export default {
 	title: "sczie site",
-	url: `https://${fs.readFileSync('./CNAME').toString()}/`,
+	url: "https://test.technicallycompetent.com/",
 	language: "en",
 	subtitle: "I dunno something",
 	author: {
