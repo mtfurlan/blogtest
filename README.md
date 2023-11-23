@@ -23,16 +23,41 @@
 ## TODO:
 * on v3 eleventy release change package.json, need v3 for esm reasons
 
-## Page Titles
-Literature Review of Blog Page Titles
-* qntm: `$pageTitle @ Things Of Interest`
-* computer.rip: `$date $pageTitle`
-* cks: `Chris's Wiki :: $slug`
-* rachelbythebay: `$pageTitle`
-* jwz: `jwz: $pageTitle`
-* Schneier on Security: `$pageTitle - Schneier on Security`
-* Tom Francis Regrets This Already: `$pageTitle - a post on Tom Francis' blog`
-* anitpope: `$pageTitle - Charlie's Diary`
-* KrebsonSecurity: `$pageTitle - Krebs on Security`
-* bldblog: `$pageTitle - BLDBLOG`
-* elm-chan.org: Most leaf pages are `$pageTitle`, most categories are `ELM - $category`
+## Design Literature Reivew
+* https://qntm.org/                             `$pageTitle @ Things Of Interest`
+  * breadcrumbs, no website title
+* https://computer.rip                          `$date $pageTitle`
+  * navbar
+* http://elm-chan.org                           Most leaf pages are `$pageTitle`, most categories are `ELM - $category`
+  * no consistency
+* https://qwertyuiop.ninja                      `$pageTitle`
+  * navbar with home
+* https://agmlego.com/                          `AGMLego Blog · $pageTitle -- $date`
+  * navbar with categories
+* https://utcc.utoronto.ca/~cks/space/blog/     `Chris's Wiki :: $slug`
+  * breadcrumbs, no website title
+  * sidebar on right with website info
+* https://rachelbythebay.com/                   `$pageTitle`
+  * header button to writing from blog posts
+* https://www.jwz.org/blog/                     `jwz: $pageTitle`
+  * prev/next & navbar
+* https://www.schneier.com/                     `$pageTitle - Schneier on Security`
+  * breadcrumbs & navbar
+* https://www.pentadact.com                     `$pageTitle - a post on Tom Francis' blog`
+  * navbarr
+* https://www.antipope.org/charlie/blog-static/  `$pageTitle - Charlie's Diary`
+  * prev/next & navbar
+* https://krebsonsecurity.com/                  `$pageTitle - Krebs on Security`
+  * navbarr
+* https://www.bldgblog.com/                     `$pageTitle - BLDBLOG`
+  * link to home
+
+### Conclusions
+#### Title
+
+#### Page layout
+breadcrumbs, no big title
+
+#### landing page
+* node visualization
+* blog posts down the side, each linked to prev and next

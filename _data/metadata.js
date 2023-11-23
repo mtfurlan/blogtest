@@ -1,10 +1,10 @@
 export default {
-	title: "sczie site",
+	title: "Technically Competent",
 	url: "https://test.technicallycompetent.com/",
 	language: "en",
 	subtitle: "I dunno something",
 	author: {
-		name: "sczie",
+		name: "mtf",
 		email: "contact@technicallycompetent.com",
 	}
 }
