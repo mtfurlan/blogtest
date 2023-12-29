@@ -7,5 +7,9 @@ export default {
     ],
     eleventyComputed: {
         title: data => titleCase(data.title || data.page.fileSlug),
+        eleventyNavigation: {
+            key: data => data.title,
+            parent: data => data.title == "Blog" ? "Technically Competent" : "Blog",
+        }
     },
 };

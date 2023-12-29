@@ -3,10 +3,25 @@ html {
     margin-bottom: 0;
 }
 nav {
-    border: 1pt solid #586e75;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #586e75;
 }
 footer {
     padding-top: 10px;
     border-top: 2px solid #586e75;
     font-size: 80%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+}
+nav li::after {
+    content: " » ";
+}
+nav li:last-child::after {
+    content: "";
 }

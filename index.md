@@ -1,6 +1,8 @@
 ---
 layout: layouts/base
 title: Technically Competent
+eleventyNavigation:
+  key: Technically Competent
 ---
 
 <img src="/assets/Corridor9875pixani-construction.gif" alt="">

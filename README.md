@@ -67,8 +67,9 @@ $title @ Technically Competent
 * [x] blog posts
 * [x] lyrics pages
 * [x] redirects
-* [ ] navbar/breadcrumb
+* [x] navbar/breadcrumb
 * [ ] finalize page layout a little more
 * [ ] wiki pages
   * [ ] backlinks: https://github.com/binyamin/eleventy-garden
 * [ ] migrate blog
+* [ ] fingerprinting css? https://www.brycewray.com/posts/2022/09/cache-busting-eleventy-simpler-way-sass/
