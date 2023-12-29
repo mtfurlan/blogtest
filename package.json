@@ -1,14 +1,14 @@
 {
-  "name": "blogtest",
-  "type": "module",
-  "packageManager": "yarn@4.0.2",
-  "dependencies": {
-    "@11ty/eleventy": "git://github.com/11ty/eleventy.git#d14e1c094d6e180788f381177d6592b790a74327",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "title-case": "^4.1.2"
-  },
-  "scripts": {
-    "serve": "eleventy --serve",
-    "build": "NODE_ENV=production npx eleventy"
-  }
+    "name": "blogtest",
+    "type": "module",
+    "packageManager": "yarn@4.0.2",
+    "dependencies": {
+        "@11ty/eleventy": "git://github.com/11ty/eleventy.git#d14e1c094d6e180788f381177d6592b790a74327",
+        "@11ty/eleventy-plugin-rss": "^1.2.0",
+        "title-case": "^4.1.2"
+    },
+    "scripts": {
+        "serve": "eleventy --serve",
+        "build": "NODE_ENV=production npx eleventy"
+    }
 }
