@@ -54,9 +54,21 @@
 #### Title
 $title @ Technically Competent
 
-#### Page layout
-breadcrumbs, maybe big title
+#### Navbar layout
+* breadcrumbs
+* maybe big title?
 
 #### landing page
 * node visualization
 * blog posts down the side, each linked to prev and next
+
+### TODOs
+* [x] page titles
+* [x] blog posts
+* [x] lyrics pages
+* [x] redirects
+* [ ] navbar/breadcrumb
+* [ ] finalize page layout a little more
+* [ ] wiki pages
+  * [ ] backlinks: https://github.com/binyamin/eleventy-garden
+* [ ] migrate blog
