@@ -29,41 +29,51 @@ eleventyNavigation:
 * on v3 eleventy release change package.json, need v3 for esm reasons
 
 ## Design Literature Reivew
-* https://qntm.org/                             `$pageTitle @ Things Of Interest`
-  * breadcrumbs, no website title
-* https://computer.rip                          `$date $pageTitle`
-  * navbar
-* http://elm-chan.org                           Most leaf pages are `$pageTitle`, most categories are `ELM - $category`
-  * no consistency
-* https://qwertyuiop.ninja                      `$pageTitle`
-  * navbar with home
-* https://agmlego.com/                          `AGMLego Blog · $pageTitle -- $date`
-  * navbar with categories
-* https://utcc.utoronto.ca/~cks/space/blog/     `Chris's Wiki :: $slug`
-  * breadcrumbs, no website title
-  * sidebar on right with website info
-* https://rachelbythebay.com/                   `$pageTitle`
-  * header button to writing from blog posts
-* https://www.jwz.org/blog/                     `jwz: $pageTitle`
-  * prev/next & navbar
-* https://www.schneier.com/                     `$pageTitle - Schneier on Security`
-  * breadcrumbs & navbar
-* https://www.pentadact.com                     `$pageTitle - a post on Tom Francis' blog`
-  * navbarr
+* https://qntm.org/
+  * title: `$pageTitle @ Things Of Interest`
+  * navigation: breadcrumbs, no website title
+* https://utcc.utoronto.ca/~cks/space/blog/
+  * title: `Chris's Wiki :: $slug`
+  * navigation: breadcrumbs, no website title
+  * navigation: sidebar on right with website info
+* https://computer.rip
+  * title: `$date $pageTitle`
+  * navigation: navbar
+* http://elm-chan.org
+  * title: Most leaf pages are `$pageTitle`, most categories are `ELM - $category`
+  * navigation: no consistency
+* https://qwertyuiop.ninja
+  * title: `$pageTitle`
+  * navigation: navbar with home
+* https://agmlego.com/
+  * title: `AGMLego Blog · $pageTitle -- $date`
+  * navigation: navbar with categories
+* https://rachelbythebay.com/
+  * title: `$pageTitle`
+  * navigation: header button to writing from blog posts
+* https://www.jwz.org/blog/
+  * title: `jwz: $pageTitle`
+  * navigation: prev/next & navbar
+* https://www.schneier.com/
+  * title: `$pageTitle - Schneier on Security`
+  * navigation: breadcrumbs & navbar
+* https://www.pentadact.com
+  * title: `$pageTitle - a post on Tom Francis' blog`
+  * navigation: navbarr
 * https://www.antipope.org/charlie/blog-static/  `$pageTitle - Charlie's Diary`
-  * prev/next & navbar
-* https://krebsonsecurity.com/                  `$pageTitle - Krebs on Security`
-  * navbarr
-* https://www.bldgblog.com/                     `$pageTitle - BLDBLOG`
-  * link to home
+  * navigation: prev/next & navbar
+* https://krebsonsecurity.com/
+  * title: `$pageTitle - Krebs on Security`
+  * navigation: navbarr
+* https://www.bldgblog.com/
+  * title: `$pageTitle - BLDBLOG`
+  * navigation: link to home
 
-### Conclusions
-#### Title
-$title @ Technically Competent
-
+### Questions/ideas
 #### Navbar layout
-* breadcrumbs
-* maybe big title?
+* Include current page in breadcrumbs?
+  * If not, just have nothing on landing page?
+  * If not, also add back in trailing >>
 
 #### landing page
 * node visualization
@@ -75,10 +85,11 @@ $title @ Technically Competent
 * [x] lyrics pages
 * [x] redirects
 * [x] navbar/breadcrumb
-* [ ] finalize page layout a little more
-* [ ] wiki pages
-  * [ ] backlinks: https://github.com/binyamin/eleventy-garden
-* [ ] migrate blog
-* [ ] fingerprinting css? https://www.brycewray.com/posts/2022/09/cache-busting-eleventy-simpler-way-sass/
+  * [ ] not duplicate title/key *everywhere*
 * [ ] [[links?]]
-* [ ] blog list, dates? short descriptions?
+* [ ] blog/index, add short descriptions?
+* [ ] wiki/notes pages
+  * [ ] backlinks: https://github.com/binyamin/eleventy-garden
+* [ ] fingerprinting css? https://www.brycewray.com/posts/2022/09/cache-busting-eleventy-simpler-way-sass/
+* [ ] migrate blog
+* [ ] finalize page layout a little more
