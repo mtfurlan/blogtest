@@ -1,0 +1,12 @@
+html {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav {
+    border: 1pt solid #586e75;
+}
+footer {
+    padding-top: 10px;
+    border-top: 2px solid #586e75;
+    font-size: 80%;
+}

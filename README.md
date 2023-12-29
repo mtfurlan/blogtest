@@ -54,9 +54,10 @@
 
 ### Conclusions
 #### Title
+$title @ Technically Competent
 
 #### Page layout
-breadcrumbs, no big title
+breadcrumbs, maybe big title
 
 #### landing page
 * node visualization
