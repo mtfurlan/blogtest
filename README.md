@@ -1,3 +1,10 @@
+---
+layout: layouts/base
+title: README
+eleventyNavigation:
+  key: README
+  parent: Technically Competent
+---
 # blogtest
 
 ## Site Layout maybe
@@ -73,3 +80,4 @@ $title @ Technically Competent
   * [ ] backlinks: https://github.com/binyamin/eleventy-garden
 * [ ] migrate blog
 * [ ] fingerprinting css? https://www.brycewray.com/posts/2022/09/cache-busting-eleventy-simpler-way-sass/
+* [ ] [[links?]]

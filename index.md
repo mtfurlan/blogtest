@@ -10,8 +10,7 @@ eleventyNavigation:
 Very construction.
 Much site.
 
-We have [blog](blog/) and [rss](feed.xml).
-
-[lyrics](lyrics/)
+* [blog](blog/) (with [rss](feed.xml)!)
+* [lyrics](lyrics/)
 
 Also, [some meta notes](README).
