@@ -81,3 +81,4 @@ $title @ Technically Competent
 * [ ] migrate blog
 * [ ] fingerprinting css? https://www.brycewray.com/posts/2022/09/cache-busting-eleventy-simpler-way-sass/
 * [ ] [[links?]]
+* [ ] blog list, dates? short descriptions?

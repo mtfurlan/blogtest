@@ -9,8 +9,10 @@ eleventyNavigation:
 
 Very construction.
 Much site.
+## Site Layout ish
 
-* [blog](blog/) (with [rss](feed.xml)!)
-* [lyrics](lyrics/)
+├── notes: non-blog notes on stuff
+├── [blog](blog/): dated blog posts(with [rss](feed.xml)!)
+└── [lyrics](lyrics/): song lyrics I've transcribed
 
 Also, [some meta notes](README).
