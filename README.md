@@ -13,9 +13,7 @@
 │   │       it's own file
 │   │       I expect stuff like "cool updates to notes/something"
 │   └── 2023-11-17-blog-layout.md -> /blog/blog-layout/
-├── redirects file that handles stuff like
-│   ├── /frsky-communication-intro -> /blog/frsky-communication-intro
-│   └── /blog/whatever -> /notes/whatever when I decide a blog post is now notes
+│       supports redirectFrom for old URLs
 └── lyrics -> /lyrics/index.html: list of files
     └── artist-song.md -> /lyrics/artist-song/
 ```
