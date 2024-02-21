@@ -12,7 +12,17 @@ export default (eleventyConfig) => {
     eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
     eleventyConfig.addFilter("formatDate", (date) => date.toISOString().replace(/T.*/, "") );
 
-    eleventyConfig.amendLibrary("md", mdLib => mdLib.set({ breaks: true }));
+    eleventyConfig.amendLibrary("md", (mdLib) => {
+        mdLib.set({
+            breaks: true,
+            linkify: true,
+        });
+        mdLib.linkify.set({
+            fuzzyEmail: false,
+            fuzzyLink: false,
+            fuzzyIP: false,
+        });
+    });
 
     eleventyConfig.addPassthroughCopy('assets');
 
