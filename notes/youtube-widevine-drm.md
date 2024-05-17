@@ -4,9 +4,37 @@ title: Youtube with yt-dlp & Widevine DRM decoding
 
 
 First we must ask ourselves, what is Widevine?
-I have no idea, this is a cargo cult process.
+* DRM solution acquired by google in 2010
+* Three levels, L1, L2, L3
+  * L1 (in android) is done inside the Trusted Execution Environment (TEE), so hardware dependant
+    * and is often required for HD decryption
+  * L2 doesn't exist in android
+  * L3 is software based
+
+
+## Terminology
+* License Request: DRM fuckery talks to license server to get content keys
+  * ex license server: youtube.com/youtubei/v1/player/get_drm_license
+* DASH: [Dynamic adaptive streaming over HTTP](https://standards.iso.org/ittf/PubliclyAvailableStandards/c083314_ISO_IEC%2023009-1_2022\(en\).zip)
+  I think this is basically the spec for an MPD manifest, which most streaming sites using widevine use?
+  * PSSH: Protection System Specific Header
+    * part of a license request
+  * MPD: Media Presentation Description
+    * I think this is an xml manifest that says what the content URLs are, supposed to define pssh, and maybe license servers
+* CDM
+
+## Open Quetions
+* the L1/L3 device keys are genrated by the Root of Trust 128 AES device key, where does that come from (especially in an emulator?)
+* Can we get the device key and generate the L1/L3 keys ourselves?
 
 ## Prior Art
+I did the "make it kinda work" half before the "learn how it's supposed to work" half and I must say, cargo cult script kiddie shit sucks.
+Did work though.
+### Research
+The explinations above are me butchering these
+* [Exploring Widevine for Fun and Profit from Gwendal Patat, Mohamed Sabt, and Pierre-Alain Fouque](https://arxiv.org/abs/2204.09298)
+* [Your DRM Can Watch You Too: Exploring the Privacy Implications of Browsers (mis)Implementations of Widevine EME from  Gwendal Patat, Mohamed Sabt, and Pierre-Alain Fouque](https://arxiv.org/abs/2308.05416)
+### Application
 I'm mostly summarizing these after a fair amount of trial and an unfair amount of error
 * [Mo Ismailzai has a blog post that's close to what I did](https://www.ismailzai.com/blog/picking-the-widevine-locks)
 * [cedric8528 on VideoHelp has a post](https://forum.videohelp.com/threads/408031-Dumping-Your-own-L3-CDM-with-Android-Studio)
@@ -25,9 +53,16 @@ I'm mostly summarizing these after a fair amount of trial and an unfair amount o
 
 
 #### steps
-* run emulator, push frida-server to /sdcard
-* move to `/data/local/tmp` & chmod +x
-* run frida-server
+* run emulator
+  * install via studio, or maybe something like
+    ```
+    sdkmanager "platform-tools" "platforms;android-26"
+    sdkmanager "system-images;android-26;google_apis;x86"
+    sdkmanager --licenses
+    ```
+  * `emulator -avd Medium_Phone_API_26 -wipe-data -netdelay none -netspeed full`
+* push frida-server to /sdcard, move to `/data/local/tmp` & chmod +x
+* run frida-server as root
 * find libwvhidl.so, copy to somewhere readable and pull it
 * Look at it with `strings`, the functions names you want are between
   `_lcc43` and `_ZN6wvoec333OEMCrypto_Level3AndroidFileSystem4ReadEPKcPvj`(Second occourance of OEMCrypto_Level3 in the file)
@@ -35,6 +70,8 @@ I'm mostly summarizing these after a fair amount of trial and an unfair amount o
 * run dumper, this will listen in on those functions for drm functions and log keys
   * I had a *lot* of issues with this I think it just started working once I went old enough? Don't really remmeber
 * Open DRM in a chrome tab in the phone
+  * `adb shell am start -n com.android.chrome/com.google.android.apps.chrome.Main -d "https://bitmovin.com/demos/drm"`
+  * You will have to click accept a few times or whatever
 * Hope dumper writes `key_dumps/Android\ Emulator\ */private_keys/*/*/client_id.bin` and `private_key.pem`
 
 These steps are fairly well documented in the first two prior art posts.
