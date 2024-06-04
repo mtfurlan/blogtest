@@ -86,6 +86,7 @@ eleventyNavigation:
 * [x] redirects
 * [x] navbar/breadcrumb
   * [ ] not duplicate title/key *everywhere*
+* [ ] put `#id` on headings with link buttons
 * [ ] [[links?]]
 * [ ] blog/index, add short descriptions?
 * [ ] wiki/notes pages
