@@ -25,3 +25,6 @@ nav li::after {
 nav li:last-child::after {
     content: "";
 }
+code {
+    padding: 0px;
+}
