@@ -80,6 +80,7 @@ eleventyNavigation:
 * blog posts down the side, each linked to prev and next
 
 ### TODOs
+* [ ] blog dates don't work on prod version
 * [x] page titles
 * [x] blog posts
 * [x] lyrics pages
