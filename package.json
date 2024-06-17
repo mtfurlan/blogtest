@@ -3,9 +3,9 @@
     "type": "module",
     "packageManager": "yarn@4.0.2",
     "dependencies": {
-        "@11ty/eleventy": "git://github.com/11ty/eleventy.git#d14e1c094d6e180788f381177d6592b790a74327",
-        "@11ty/eleventy-plugin-rss": "^1.2.0",
+        "@11ty/eleventy": "git://github.com/11ty/eleventy.git#v3.0.0-alpha.13",
         "@11ty/eleventy-navigation": "^0.3.5",
+        "@11ty/eleventy-plugin-rss": "^1.2.0",
         "title-case": "^4.1.2"
     },
     "scripts": {

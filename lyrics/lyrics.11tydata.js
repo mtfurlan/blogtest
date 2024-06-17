@@ -9,7 +9,8 @@ export default {
         title: data => data.title || titleCase(data.page.fileSlug),
         eleventyNavigation: {
             key: data => data.title,
-            parent: data => data.title == "Lyrics" ? "Technically Competent" : "Lyrics",
-        }
+            parent: data => data.index ? "Technically Competent" : "Lyrics",
+        },
+        templateEngineOverride: data => data.index ? "liquid" : "mdbreaks",
     },
 };
