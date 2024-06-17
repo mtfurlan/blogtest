@@ -1,6 +1,7 @@
 ---
 songURL: https://doomtree.bandcamp.com/track/hot-monotony
 ---
+
 It's the fire that environment vital void
 the fight in the mineral modern day
 final frontier of the fathering

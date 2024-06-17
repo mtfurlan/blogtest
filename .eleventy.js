@@ -14,7 +14,6 @@ export default (eleventyConfig) => {
 
     eleventyConfig.amendLibrary("md", (mdLib) => {
         mdLib.set({
-            breaks: true,
             linkify: true,
         });
         mdLib.linkify.set({

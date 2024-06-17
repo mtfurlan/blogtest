@@ -79,15 +79,17 @@ eleventyNavigation:
 * node visualization
 * blog posts down the side, each linked to prev and next
 
-### TODOs
+### Bugs
 * [ ] blog dates don't work on prod version
+* [ ] lyrics newlines (markdown-it `break: true`)
+
+### TODOs
 * [x] page titles
 * [x] blog posts
 * [x] lyrics pages
 * [x] redirects
 * [x] navbar/breadcrumb
   * [ ] not duplicate title/key *everywhere*
-* [ ] put `#id` on headings with link buttons
 * [ ] [[links?]]
 * [ ] blog/index, add short descriptions?
 * [ ] wiki/notes pages
@@ -95,3 +97,4 @@ eleventyNavigation:
 * [ ] fingerprinting css? https://www.brycewray.com/posts/2022/09/cache-busting-eleventy-simpler-way-sass/
 * [ ] migrate blog
 * [ ] finalize page layout a little more
+* [ ] created/edited date
