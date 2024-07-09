@@ -7,6 +7,9 @@ eleventyNavigation:
 ---
 # blogtest
 
+## notes on eleventy
+* Edit _data_eleventyComputed.js to debug data cascade
+
 ## Site Layout maybe
 ```
 .
@@ -93,4 +96,4 @@ Yay
 * fingerprinting css? https://www.brycewray.com/posts/2022/09/cache-busting-eleventy-simpler-way-sass/
 * migrate blog
 * finalize page layout a little more
-* created/edited date
+* created/edited date: https://github.com/11ty/eleventy/issues/869
