@@ -4,7 +4,7 @@ override:tags: []
 ---
 this is the blog list
 <ul>
-    {% for post in collections.blog %}
+    {% for post in collections.blog reversed %}
         <li>
             <a href="{{ post.url }}">{{ post.data.title }}</a>
             {{ post.date | formatDate  }}

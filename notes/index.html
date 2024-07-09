@@ -4,7 +4,7 @@ override:tags: []
 ---
 this is the Notes list
 <ul>
-    {% for post in collections.notes %}
+    {% for post in collections.notes reversed %}
         <li>
             <a href="{{ post.url }}">{{ post.data.title }}</a>
             {{ post.date | formatDate  }}

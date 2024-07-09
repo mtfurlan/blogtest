@@ -97,3 +97,4 @@ Yay
 * migrate blog
 * finalize page layout a little more
 * created/edited date: https://github.com/11ty/eleventy/issues/869
+* sort lyrics by title
