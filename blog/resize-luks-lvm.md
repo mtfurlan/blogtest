@@ -21,6 +21,7 @@ cryptsetup luksOpen /dev/nvme0n1p3 foo
 vgdisplay
 #extents are the number shown by vgdisplay, before the GiB number
 lvextend --extents +$something /dev/mapper/azura--vg-swap_1
+sudo mkswap /dev/mapper/azura--vg-swap_1
 ````
 i wrote this in vim from a phone
 maybe i should have enabled mouse
