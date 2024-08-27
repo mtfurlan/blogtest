@@ -2,7 +2,7 @@
 title: UWB Literature Review in 2024
 ---
 
-SEE ALSO: [UWB Qorvo DW3XXX family notes](../uwb-dw3xxx)
+Trying to get a sense of the state of UWB in 2024
 
 ## use case I'm focused on
 * cheap UWB nodes we need the location and sensor data from
@@ -17,17 +17,38 @@ SEE ALSO: [UWB Qorvo DW3XXX family notes](../uwb-dw3xxx)
   * Great overview of standards gropus and OSI model stuff
     * Required reading for background I'm not providing here
   * standards changes since then
-    * fira 2 came out 2023
-    * omlox 2 2023
+    * fira 2 came out 2023, not really sure what changed
+    * omlox 2 2023, didn't look into this
 * [Applications of UWB Networks and Positioning to Autonomous Robots and Industrial Systems](https://arxiv.org/abs/2103.13488)
   * focused on robots, but a lot of the same mesh localization needs
-* [The state of uwb in 2024(pozyx blog)](https://www.pozyx.io/newsroom/the-state-of-uwb)
+* [The state of uwb in 2024 (pozyx blog post)](https://www.pozyx.io/newsroom/the-state-of-uwb)
   * some notes on recent standards changes
 * [RPL Routing Protocol over IoT: A Comprehensive Survey, Recent Advances, Insights, Bibliometric Analysis, Recommendations, and Future Directions](https://www.researchgate.net/profile/Muna-Alakhras/publication/362752679_RPL_routing_protocol_over_IoT_A_comprehensive_survey_recent_advances_insights_bibliometric_analysis_recommendations_and_future_directions/links/64d93ed3ad846e28828d2ed0/RPL-routing-protocol-over-IoT-A-comprehensive-survey-recent-advances-insights-bibliometric-analysis-recommendations-and-future-directions.pdf)
   * > RPL builds and maintains a Destination-Oriented Directed Acyclic Graph (DODAG) topology that originates from a designated RPL root node
   * This could be useful if all nodes repeating to everyone cause congestion
 
-### Normal Literature Review
+### Relevant Standards
+* [IEEE 802.15.4-2020](https://standards.ieee.org/ieee/802.15.4/7029/) and
+  [IEEE 802.15.4z-2020](https://standards.ieee.org/ieee/802.15.4z/10230/)
+  * define PHY and MAC for many things, UWB included
+  * FIRA also has specs for PHY/MAC, but they're apparently the same?
+* FiRa specs that might be relevant
+  * FiRa® UWB Command Interface (UCI) Technical Specification v2.0.0
+    * communication protocol between the UWB Subsystem (UWBS) and the Host
+  * FiRa® Common Service & Management Layer (CSML) Technical Specification
+    v1.0.0
+    * FiRa® UWB host framework and application programming interfaces between
+      other host components, a secure component, and FiRa-enabled applications
+  * FiRa® Secure UWB Service (SUS) API Technical Specification v1.0.0
+    * external reference interfaces between a secure component and a UWBS and
+      the internal interface between a service applet and the SUS applet
+  * FiRa® Bluetooth® Low Energy Out-of-Band (OOB) Channel Technical
+    Specification v.1.0.0
+* [Apple Nearby Interaction Accessory Protocol Specification](https://developer.apple.com/nearby-interaction/specification/)
+  * implement BLE gatt service, phone connects, some data exchange via that, phone initiates ranging
+* [RFC 6550: RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks](https://datatracker.ietf.org/doc/html/rfc6550)
+
+### Cool Papers
 * [SRAC: Simultaneous Ranging and Communication in UWB Networks](https://www2.cs.uh.edu/~gnawali/papers/uwbsrac-dcoss2019.pdf)
   * very relevant, mesh & localization
   * integrated into RIOT OS, an RTOS which only has drivers for dw1000
@@ -49,31 +70,7 @@ SEE ALSO: [UWB Qorvo DW3XXX family notes](../uwb-dw3xxx)
 * [Accurate position tracking with a single UWB anchor](https://arxiv.org/abs/2005.10648)
   * single known anchor, mobile rover with imu
 
-### Standards we (might) care about
-* [IEEE 802.15.4-2020](https://standards.ieee.org/ieee/802.15.4/7029/) and
-  [IEEE 802.15.4z-2020](https://standards.ieee.org/ieee/802.15.4z/10230/)
-  * define PHY and MAC for many things, UWB included
-  * FIRA also has specs for PHY/MAC, but they're apparently the same?
-* [RFC 6550: RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks](https://datatracker.ietf.org/doc/html/rfc6550)
-* FiRa specs that might be relevant
-  * FiRa® UWB Command Interface (UCI) Technical Specification v2.0.0
-    * communication protocol between the UWB Subsystem (UWBS) and the Host
-  * FiRa® Common Service & Management Layer (CSML) Technical Specification
-    v1.0.0
-    * FiRa® UWB host framework and application programming interfaces between
-      other host components, a secure component, and FiRa-enabled applications
-  * FiRa® Secure UWB Service (SUS) API Technical Specification v1.0.0
-    * external reference interfaces between a secure component and a UWBS and
-      the internal interface between a service applet and the SUS applet
-  * FiRa® Bluetooth® Low Energy Out-of-Band (OOB) Channel Technical
-    Specification v.1.0.0
-* [IEEE 802.15.4ab](https://standards.ieee.org/ieee/802.15.4ab/10694/) upcoming
-  bandwidth spec
-  * random news article says it's expected 2025, not sure it's super relevant
-* [Apple Nearby Interaction Accessory Protocol Specification](https://developer.apple.com/nearby-interaction/specification/)
-  * implement BLE gatt service, phone connects, some data exchange via that, phone initiates ranging
-
-### cool resources and TLAs
+### Definitions and resources
 * HRP vs LRP: high rate pulse low rate pulse, we only care about high
   * lower frequency better range, but lower frequencies don't have regulatory acceptance
 * [uwb spectrum legality across the world](https://www.firaconsortium.org/sites/default/files/2023-07/fira-uwb-availability-chart.svg)
