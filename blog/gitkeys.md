@@ -23,13 +23,16 @@ Host entries in your `~/.ssh/config`
 ```
 [url "git@github.com-$enterprise:$enterpriseOrg"]
     insteadOf = git@github.com:$enterpriseOrg
+    insteadOf = https://github.com/$enterpriseOrg
 ```
+This will also handle if you clone via https
 
 So for example, if your enterprise organization is github.com/SecretStuff, you
 would have
 ```
 [url "git@github.com-SecretStuff:SecretStuff"]
     insteadOf = git@github.com:SecretStuff
+    insteadOf = https://github.com/SecretStuff
 ```
 so it uses the host `github.com-SecretStuff` instead of github.com, which your
 ssh config will provide a different ssh key for
