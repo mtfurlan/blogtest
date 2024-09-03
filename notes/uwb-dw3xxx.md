@@ -99,10 +99,23 @@ no bluetooth discovery stuff
 
 `./QM33120WDK1/DW3_QM33_SDK/Doc/` and `./DWM3001CDK DK/DWM3001CDK_SDK/Doc/` have `UWB-Stack-R11.9.2.pdf`
 
+It seems better to consider this a part of the DW3_QM33_SDK
+
 ##### UWB Stack R11.9.2 October 2022
 * found in both `DWM3001CDK DK` and `QM33120WDK1`, next to DW3XXX Device Driver Version 06.00.14
 * binary lib with headers
 
+
+#### DW3_QM33_SDK
+in both DWM3001CDK DK and QM33120WDK1, and contains UWB Stack and the DW3XXX API
+FreeRTOS segger thingy
+
+can actually do uwb ranging
+
+##### keywords
+* MCPS: MAC Common Part Sublayer
+* UWBS: UWB Subsystem, the conceptual gropu for MAC&PHY layer
+* UWB Service: thin inside fira framework that talks to UWBS
 
 ### existing software stuff
 * DW1000 based
