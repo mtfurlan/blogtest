@@ -6,6 +6,8 @@ I want a jellyfin display client
 Trying a roku, but it is unhappy without internet, it complains and also the
 clock is wrong
 
+I want to have clock without internet
+
 
 ## literature review
 * roku is running a local api on port 8060
@@ -21,6 +23,9 @@ clock is wrong
     * https://ieeexplore.ieee.org/document/9946502
     * They discovered the api on port 8060 *documented by the manufacturer*
     * what a find
+* notes from Eric Cooper 2008
+    * https://www.cs.cmu.edu/~ecc/roku-nfp.html
+    * if it can't https it tries http
 
 ## wireshark capture from boot to has time
 Started capture, booted device, stopped capture once it had time
@@ -44,8 +49,12 @@ DNS requests:
 * scribe.logs.roku.com
 
 
-api.rokutime.com sounds promising
+api.rokutime.com sounds promising:
 ```
 A api.rokutime.com CNAME api-weights.us-east-1.rokutime.com CNAME api.us-east-2.rokutime.com CNAME rokumesh-2-device.us-east-2.msc.roku.com A 3.20.27.28 A 3.128.227.227 A 18.217.208.75
 ```
-We actually talk to all three of them, lovely
+We actually talk to all three of them, woooo
+
+----
+Anyway, it's all tls, so I gave up for now.
+It's basically working fine if you ignore the clock.
