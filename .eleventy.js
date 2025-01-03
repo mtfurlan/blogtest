@@ -11,7 +11,7 @@ export default (eleventyConfig) => {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
     eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
-    eleventyConfig.addFilter("formatDate", (date) => date.toISOString().replace(/T.*/, "") );
+    eleventyConfig.addFilter("formatDate", (date) => `<time datetime="${date.toISOString()}">${date.toISOString().replace(/T.*/, "")}</time>` );
 
 
     eleventyConfig.amendLibrary("md", (mdLib) => {
