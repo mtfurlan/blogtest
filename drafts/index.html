@@ -2,12 +2,12 @@
 layout: layouts/base
 override:tags: []
 ---
-this is the Notes list
+Drafts
 <ul>
-    {% for post in collections.notes reversed %}
+    {% for post in collections.drafts reversed %}
         <li>
             <a href="{{ post.url }}">{{ post.data.title }}</a>
-            {{ post.date | formatDate  }}
+            posted {{ post.date | formatDate }}
         </li>
     {% endfor %}
 </ul>
