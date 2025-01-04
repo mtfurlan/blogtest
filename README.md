@@ -28,9 +28,6 @@ eleventyNavigation:
     └── artist-song.md -> /lyrics/artist-song/
 ```
 
-## TODO:
-* on v3 eleventy release change package.json, need v3 for esm reasons
-
 ## Design Literature Reivew
 * https://qntm.org/
   * title: `$pageTitle @ Things Of Interest`
@@ -94,7 +91,7 @@ Yay
 * wiki/notes pages
   * backlinks: https://github.com/binyamin/eleventy-garden
 * fingerprinting css? https://www.brycewray.com/posts/2022/09/cache-busting-eleventy-simpler-way-sass/
-* migrate blog
 * finalize page layout a little more
-* created/edited date: https://github.com/11ty/eleventy/issues/869
 * sort lyrics by title
+* image alt text mouseover
+* semantic layout passthrough

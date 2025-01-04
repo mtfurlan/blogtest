@@ -15,7 +15,12 @@ function getGitLastUpdatedTimeStamp(filePath) {
 
 export default {
     lastUpdated: (data) => {
-        const lastUpdated = getGitLastUpdatedTimeStamp(data.page.inputPath);
+        let lastUpdated;
+        if(data.lastUpdated) {
+            lastUpdated = data.lastUpdated; // allow override via front matter
+        } else {
+            lastUpdated = getGitLastUpdatedTimeStamp(data.page.inputPath);
+        }
         if(lastUpdated.getTime() != data.page.date.getTime()) {
             return lastUpdated;
         }
