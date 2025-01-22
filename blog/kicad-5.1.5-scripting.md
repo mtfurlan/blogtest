@@ -8,7 +8,7 @@ categories:
 
 Notes on scripting in kicad 5.1.5, updated 2020-10-14
 
-<!--excerpt-->
+
 As development towards 6 continues, whatever I can get out of the debian repos gets less up to date.
 The [official docs](https://docs.kicad-pcb.org/doxygen-python/index.html) are too new for me. and aren't useful.
 

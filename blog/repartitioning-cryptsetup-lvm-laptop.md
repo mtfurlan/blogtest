@@ -8,7 +8,7 @@ categories: linux, LVM
 
 I just wanted to add a hard drive for more boot, home, and swap.
 Four days later it eventually worked.
-<!--excerpt-->
+
 ----
 The debian installer left me a swap and a root in the same LVM VG in a luks parittion.
 

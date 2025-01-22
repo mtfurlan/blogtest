@@ -8,7 +8,7 @@ categories: keyboard, electronics
 
 I have three kinesis advantage now, this is what I've done.
 
-<!--excerpt-->
+
 First off notes on the keyboards:
 * Kinesis Advantage Pro (daily driver)
 * Kinesis Advantage (spare from when I worked in an office every day)

@@ -8,7 +8,7 @@ categories: iot
 
 I replaced the tuya w8bp with an ESP-12E.
 
-<!--excerpt-->
+
 
 Treatlife doesn't really believe in model numbers, this is the listing I got: [https://smile.amazon.com/gp/product/B083BRRZ4Y/](https://smile.amazon.com/gp/product/B083BRRZ4Y/)
 

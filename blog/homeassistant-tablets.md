@@ -7,7 +7,7 @@ categories:
 ---
 
 
-<!--excerpt-->
+
 
 Hackday tablet
 Vulkan Electronics | Excursion XC

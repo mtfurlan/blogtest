@@ -13,7 +13,7 @@ This means I want voice programs to go to mono, and everything else to go to ste
 I also have some speakers, and I would like to output to them at the same time.
 
 
-<!--excerpt-->
+
 
 The internet has a lot of suggestions, most of which boil down to
 "use use paprefs to output to every sink at once and make a device description

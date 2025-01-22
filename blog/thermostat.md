@@ -10,7 +10,7 @@ So at i3, one issue we have is people leaving the thermostats on high temepratur
 
 So we built our own into the automation system.
 
-<!--excerpt-->
+
 
 At it's core, a thermostat is just a temperature sensor, some relays, some buttons, and a display.
 

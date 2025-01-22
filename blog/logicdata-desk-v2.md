@@ -12,7 +12,7 @@ So I put together a [thing to read the height and use double presses to automati
 
 A few weeks ago, someone emailed me about it and I got inspired to clean it up and redo some bits.
 
-<!--excerpt-->
+
 
 Version 1 was just taking what [Phil Hord had done](https://github.com/phord/RoboDesk) and bodging it till it worked for my use case.
 

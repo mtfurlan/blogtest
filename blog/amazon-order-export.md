@@ -8,7 +8,7 @@ categories: amazon
 
 A friend needed amazon order data for tax reasons.
 The order export didn't work.
-<!--excerpt-->
+
 
 On each page of the order history I ran this
 ```

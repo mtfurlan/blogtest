@@ -4,13 +4,12 @@ date: 2016-07-10
 lastUpdated: 2018-04-11
 title:  "Arduino Media Keypad"
 categories: arduino keyboard
-excerpt_seperator: <!--excerpt-->
 ---
 
 I wanted a small programmable keypad.
 It's primary purpose was to be media keys for a model M that needed to be cleaned and bolt modded, but now that I use a (different) model M, I finished the project.
 
-<!--excerpt-->
+
 
 ![](/assets/pages/arduino-keypad/arduinoKeypad.jpg)
 

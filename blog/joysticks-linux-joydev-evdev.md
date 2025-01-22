@@ -13,7 +13,7 @@ There aren't any default tools for saving evdev calibrations.
 
 This is my notes on how I got my joystick calibrated.
 
-<!--excerpt-->
+
 
 ## Problem Statement
 I would like to use a joystick in the game Elite Dangerous, played via proton from steam, and my joystick is way out of cal.

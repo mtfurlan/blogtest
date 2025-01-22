@@ -8,7 +8,7 @@ categories:
 
 Backing up jenkins seems like it should be a solved problem and yet.
 
-<!--excerpt-->
+
 
 The [Jenkins User Handbook -> System Administration -> Backing-up/Restoring Jenkins](https://www.jenkins.io/doc/book/system-administration/backing-up/)  has a nice overview of everything you need to back up jenkins.
 

@@ -8,7 +8,7 @@ categories:
 
 
 I needed USB PD to barrel jack with multiple voltages.
-<!--excerpt-->
+
 
 This project was started when [Deviant Ollam](https://www.youtube.com/user/DeviantOllam) posted a video about using a USB PD trigger to barrel adapter with a barrel adapter kit instead of sorting through a bin of power bricks.
 The issue was that USB PD trigger only output 19V, which not all devices will tolerate.

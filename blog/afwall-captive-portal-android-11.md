@@ -10,7 +10,7 @@ I use [afwall](https://github.com/ukanth/afwall) to prevent most things from hav
 
 I had a lot of trouble getting wifi to work with afwall enabled in android 11.
 
-<!--excerpt-->
+
 
 I'm running a samsung A52 5G chinese version with android 11.
 

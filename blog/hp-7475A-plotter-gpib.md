@@ -6,7 +6,7 @@ title:  "HP 7475A Plotter over GPIB/HPIB/IEEE-488"
 ---
 
 Just got an HP 7475A plotter working with a National Instruments PCI-GPIB 183617K-01.
-<!--excerpt-->
+
 
 [Working code](https://gist.github.com/mtfurlan/ae138eb730517ac946251124feaf9037)
 

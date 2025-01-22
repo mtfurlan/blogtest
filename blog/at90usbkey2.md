@@ -12,7 +12,7 @@ Bought a AT90USBKEY2 dev kit, and tried to put TMK on it.
 This was another "one" day project.
 It ended in running the onekey example, so this post is more just "how to use the AT90USBKEY2.
 
-<!--excerpt-->
+
 
 ## Important stuff first: How to flash.
 

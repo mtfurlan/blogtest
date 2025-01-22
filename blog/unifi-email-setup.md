@@ -8,7 +8,7 @@ categories: unifi
 
 It's harder than expected
 
-<!--excerpt-->
+
 
 1. setup SMTP server in controller -> Mail Server, get a test email working and all that
 2. enable emails in the site settings

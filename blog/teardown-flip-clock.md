@@ -7,7 +7,7 @@ title:  "Tearing Down a Lafayette 17-02372 flip clock radio"
 
 So I wanted the flip clock, and took pictures because the last flip clock we found didn’t quite make sense as to how it went together, so this may help some poor fuck in the future.
 
-<!--excerpt-->
+
 
 ![front of clock](/assets/pages/flipclock/flipclockFront.jpg)
 

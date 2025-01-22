@@ -1,17 +1,16 @@
-----
+---
 redirectFrom: lora-gateway
 date: 2018-05-31
 lastUpdated: 2018-06-27
 title:  "Lora Gateway Research"
 categories: lora, mbed, notes
-----
+---
 
 Trying to get to a lorawan gateway.
 
 Got the [Low Cost LoRa Gateway](https://github.com/CongducPham/LowCostLoRaGw) running, but no lorawan.
 
 
-<!--excerpt-->
 
 lorawan client with the st lora dev board B-L072Z-LRWAN1
 ----

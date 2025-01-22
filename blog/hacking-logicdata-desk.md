@@ -14,7 +14,7 @@ It's a good definition.
 
 So here's how I hacked my electronic sit/stand desk controller to have set points in yet another one day project.
 
-<!--excerpt-->
+
 
 So first off, many thanks for Phil Hord for [doing 90% of the work for me](https://github.com/phord/RoboDesk).
 He wrote the analysis code for the logicdata protocol, as well as the clever way to read the button lines while asserting them so the desk still moves.

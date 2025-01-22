@@ -12,7 +12,7 @@ Sadly, they often get sent to `root@127.0.0.1`, where they don't get read becaus
 
 [nullmailer](https://untroubled.org/nullmailer/) to the rescue.
 
-<!--excerpt-->
+
 ```
 sudo apt-get install nullmailer mailutils
 ```

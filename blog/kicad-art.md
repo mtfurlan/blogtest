@@ -10,7 +10,7 @@ Putting logos on a kicad board isn't terribly hard, just slightly annoying.
 
 ![some boards with art](/assets/pages/kicad-art/closeup.jpg)
 
-<!--excerpt-->
+
 
 Approach for copper/mask taken from [komar's techblog](http://blog.komar.be/making-pcb-artwork-in-kicad/), but I couldn't get the tooling to work.
 

@@ -8,7 +8,7 @@ categories:
 
 $work has an ultimaker 2, I wanted to upgrade it and this would be vastly simpler with control over the firmware.
 
-<!--excerpt-->
+
 
 
 ## Ultimaker firmware

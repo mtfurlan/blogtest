@@ -12,7 +12,7 @@ I intended to buy one to evaluate, but got confused by someone else talking abou
 I don't use zwave, so I decided to see what would be involved with converting it to be ESP based.
 
 TL;DR: Maybe possible to convert, but way too much effort.
-<!--excerpt-->
+
 
 I'm just posting what I know because I couldn't find any pictures of the inside online.
 

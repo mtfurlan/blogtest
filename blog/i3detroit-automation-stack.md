@@ -23,7 +23,7 @@ Frequently people would complain because they come in and find the doors to have
 The benefits of automating things is not just saving time on tasks that get done, but making sure all the tasks actually do get done.
 
 
-<!--excerpt-->
+
 
 i3Detroit's status panel:
 ![i3 iot map](https://www.i3detroit.org/wi/images/d/d5/IoT_map.jpg)

@@ -8,7 +8,7 @@ categories: gnss
 
 Steps to compare GNSS antennas.
 
-<!--excerpt-->
+
 
 Basing this off the idea of comparing SNR proposed by [Tallysman GNSS](http://www.digikey.no/Web%20Export/Supplier%20Content/tallysman-1526/pdf/tallysman-comparing-gnss-antenna-performance.pdf)
 

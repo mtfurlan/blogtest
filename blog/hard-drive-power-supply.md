@@ -10,7 +10,7 @@ categories: ee
 
 Really more of a test post to get this blog off the ground, but today I made a power supply for a hard drive out of some 12v power brick by soldering in a LM78M05 to add a 5v rail.
 
-<!--excerpt-->
+
 
 The package on the right side closest to the camera is the LM78M05.
 

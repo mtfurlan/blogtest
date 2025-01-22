@@ -8,7 +8,7 @@ categories:
 
 Making a phone trust a jenkins docker container is annoying but doable.
 
-<!--excerpt-->
+
 
 ADB uses keys to authorize specific computers to each phone, to prevent malicious computers from doing stuff when you just plug a phone in.
 

@@ -11,7 +11,7 @@ I have octoprint controlling a relay for the printer, and I wanted a physical
 button on the printer to make octoprint toggle it.
 
 Turns out a pi can also have a functional power button to turn it on and off these days too.
-<!--excerpt-->
+
 
 For the power button, you can use GPIO3 as a
 [shutdown button](https://raspberrypi.stackexchange.com/a/77918),

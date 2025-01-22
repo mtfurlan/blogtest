@@ -10,7 +10,7 @@ Notes on how far I got trying to use RTKLIB and the uBlox C94-M8P.
 
 I got a realtime RTKNAVI solution that switched between fixed and floating.
 
-<!--excerpt-->
+
 
 Most of this is based on blog/website posts from Tim Everett at [rtklibexplorer](https://rtklibexplorer.wordpress.com/).
 He has been maintaining a fork of RTKLIB

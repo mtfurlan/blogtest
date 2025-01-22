@@ -8,7 +8,7 @@ categories: android
 
 I require symlinks in the user portion of my android storage.
 Turns out it's a lot more complex than that.
-<!--excerpt-->
+
 
 Current phone has internal storage only (also known as a mistake),
 so this might be a bit simplified.

@@ -4,14 +4,13 @@ date: 2017-10-10
 lastUpdated: 2018-04-11
 title:  "USB Thinkpad Laptop Keyboard"
 categories: avr keyboard
-excerpt_seperator: <!--excerpt-->
 ---
 
 One thing I've wanted for a while is a USB keyboard with a trackpoint.
 
 I made a good start with an atmega32u4 on an arduino micro board.
 
-<!--excerpt-->
+
 
 [It exists as a product](https://smile.amazon.com/ThinkPad-USB-Keyboard-with-TrackPoint/dp/B002ONCC6G).
 80USD if you're lucky, currently 300.

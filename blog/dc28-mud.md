@@ -10,7 +10,7 @@ This was my first defcon, and I chose to spend it playing the MUD from [EvilMog]
 
 Here is my writeup.
 
-<!--excerpt-->
+
 
 ![Mud MOTD](/assets/pages/dc28-mud/motd.png)
 

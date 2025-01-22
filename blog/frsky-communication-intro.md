@@ -9,7 +9,7 @@ categories:
 
 Adventures in connecting an RC transmitter to an arduino.
 
-<!--excerpt-->
+
 ## Tables of Overview
 
 ### Communication Protocols between receiver and MCU

@@ -14,7 +14,7 @@ If you search "rtt nordic linux", you get
 
 Pity it doesn't work.
 
-<!--excerpt-->
+
 
 The basic idea is you run `JLinkExe`, have it connect to the microcontroller, and then run `JLinkRTTClient`, which will connect to `JLinkExe` and show you the output.
 

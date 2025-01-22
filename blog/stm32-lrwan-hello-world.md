@@ -10,7 +10,7 @@ Trying to make it blink.
 
 Took far longer than expected or probably necessary.
 
-<!--excerpt-->
+
 
 It seems a lot of my life has been trying to replicate and or work around weird IDE include behavior with make and gcc.
 To get code to compile with the HAL libraries from ST, you need to manually include the ones you use in the sources in your makefile, and manually include a bunch of directories in your include path.

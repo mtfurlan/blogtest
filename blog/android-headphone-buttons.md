@@ -8,7 +8,7 @@ categories: android
 
 I wanted a skip backwards button for audiobooks in the car so I used the android headphone button standard.
 
-<!--excerpt-->
+
 
 Android [3.5mm headset accessory spec](https://source.android.com/devices/accessories/headset/plug-headset-spec)
 says that you can have 4 buttons by putting different resistances between mic and ground.
