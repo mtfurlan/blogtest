@@ -95,3 +95,4 @@ Yay
 * sort lyrics by title
 * image alt text mouseover
 * semantic layout passthrough
+* getGitLastUpdatedTimeStamp: handle unstaged changes
