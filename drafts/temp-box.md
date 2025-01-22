@@ -2,10 +2,15 @@
 title: Temperature controlled peltier box
 ---
 
-I have a drug that needs to be "room temperature", or 20-25C, but the rooms in
-my house are more like 15-30C, and I sometimes go outside for a few weeks.
+This was for a drug that says it should be "room temperature", or 20-25C, but
+the rooms in my house are more like 15-30C, and I sometimes go outside for a
+few weeks.
 
 So, peltier box that can heat and cool as required.
+
+Turns out my doctor says it's fine to keep at 15-30 so this project stopped
+after making the controller before testing it insid a box
+
 
 Parts:
 * amazon special STC-1000 thermostat with heat/cool relay outputs
