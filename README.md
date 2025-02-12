@@ -1,32 +1,14 @@
 ---
 layout: layouts/base
 title: README
+override:tags: [scaffolding]
 eleventyNavigation:
   key: README
   parent: Technically Competent
 ---
-# blogtest
+# https://technicallycompetent.com
 
-## notes on eleventy
-* Edit _data_eleventyComputed.js to debug data cascade
-
-## Site Layout maybe
-```
-.
-├── README.md
-├── notes -> /notes/index.md: list of notes
-│   ├── some.md -> /notes/some/
-│   └── notes.md -> /notes/notes/
-├── blog -> /blog/index.html: list of blog posts
-│   ├── posts.something
-│   │   └── bunch of small posts in one file for stuff I don't think is worth
-│   │       it's own file
-│   │       I expect stuff like "cool updates to notes/something"
-│   └── 2023-11-17-blog-layout.md -> /blog/blog-layout/
-│       supports redirectFrom for old URLs
-└── lyrics -> /lyrics/index.html: list of files
-    └── artist-song.md -> /lyrics/artist-song/
-```
+my personal website
 
 ## Design Literature Reivew
 * https://qntm.org/
@@ -69,23 +51,23 @@ eleventyNavigation:
   * title: `$pageTitle - BLDBLOG`
   * navigation: link to home
 
-### Questions/ideas
-#### Navbar layout
+## eleventy notes
+* tagging pages as "scaffolding" if they need to be in collections.all but aren't real content
+
+## Questions/ideas
+### Navbar layout
 * Include current page in breadcrumbs?
   * If not, just have nothing on landing page?
   * If not, also add back in trailing >>
 
-#### landing page
+### landing page
 * node visualization
 * blog posts down the side, each linked to prev and next
 
-### Bugs
+## Bugs
 Yay
 
-### TODOs
-* not duplicate title/key *everywhere*
-* `*.11tydata.js` are all very similar
-  * lyrics has better index thingy
+## TODOs
 * [[links?]]
 * blog/index, add short descriptions?
 * wiki/notes pages

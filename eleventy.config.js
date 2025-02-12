@@ -13,6 +13,14 @@ export default (eleventyConfig) => {
     eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
     eleventyConfig.addFilter("formatDate", (date) => `<time datetime="${date.toISOString()}">${date.toISOString().replace(/T.*/, "")}</time>` );
 
+    eleventyConfig.addCollection("recent", async (collectionsApi) => {
+        let getDate = (p) => p.data.lastUpdated || p.date;
+        return collectionsApi.getAll()
+            .filter(p => !p.data.tags?.includes("scaffolding"))
+            .sort((a, b) => getDate(b) - getDate(a))
+            .slice(0, 5);
+    });
+
 
     eleventyConfig.amendLibrary("md", (mdLib) => {
         mdLib.set({

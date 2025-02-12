@@ -1,0 +1,14 @@
+---
+layout: layouts/base
+index: true
+---
+{{content}}
+<ul>
+    {% for post in collections[indexType] reversed %}
+        <li>
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+            posted {{ post.date | formatDate }}
+            {% if post.data.lastUpdated %} (updated {{ post.data.lastUpdated | formatDate }}) {% endif %}
+        </li>
+    {% endfor %}
+</ul>

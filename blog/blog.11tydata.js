@@ -1,15 +1,3 @@
-import { titleCase } from "title-case";
+import f from "../commonindex.js";
 
-export default {
-    layout: "layouts/post.html",
-    tags: [
-        "blog"
-    ],
-    eleventyComputed: {
-        title: data => data.title || titleCase(data.page.fileSlug),
-        eleventyNavigation: {
-            key: data => data.title,
-            parent: data => data.title == "Blog" ? "Technically Competent" : "Blog",
-        }
-    },
-};
+export default f("blog");

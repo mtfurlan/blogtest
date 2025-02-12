@@ -1,15 +1,7 @@
 ---
-layout: layouts/base
-override:tags: []
-index: true
+layout: layouts/index
+override:tags: [scaffolding]
+indexType: lyrics
 ---
 Sometimes people don't put lyrics sheets up.
 These are songs I've transcribed with help.
-
-<ul>
-    {% for post in collections.lyrics %}
-        <li>
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
-        </li>
-    {% endfor %}
-</ul>
