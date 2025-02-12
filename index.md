@@ -6,14 +6,12 @@ eleventyNavigation:
   key: Technically Competent
 ---
 
-<img src="/assets/Corridor9875pixani-construction.gif" alt="">
+Hi I'm Mara and I'm of the opinion personal websites are useful and better than
+a walled garden :)
 
-Very construction.
-Much site.
-
-## Site Layout ish
-├── [drafts](drafts/): drafts\
+## Site Layout
 ├── [blog](blog/): dated blog posts(with [rss](feed.xml)!)\
+├── [drafts](drafts/): drafts\
 └── [lyrics](lyrics/): song lyrics I've transcribed
 
 Also, [some meta notes](README).
