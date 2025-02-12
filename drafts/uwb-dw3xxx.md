@@ -35,6 +35,7 @@ These notes are focused on the DW3XXX family
   * schematics: https://www.qorvo.com/products/d/da008300
 * [DWM3001CDK](https://www.qorvo.com/products/p/DWM3001CDK): DWM3001C & misc
   * QUICK START GUIDE: https://www.qorvo.com/products/d/da008427
+  * Quick start guide 2022 may with schematic: https://web.archive.org/web/20230929062728/https://www.qorvo.com/products/d/da008427
 * QM33120WDK1: nRF52840 & QM33 whatever, does both for AoA vs nonAoA
 
 ### Libs from qorvo/decawave
