@@ -78,3 +78,6 @@ Yay
 * image alt text mouseover
 * semantic layout passthrough
 * getGitLastUpdatedTimeStamp: handle unstaged changes
+* link to me elsewhere
+  * github
+  * ???

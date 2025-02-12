@@ -1,10 +1,10 @@
 export default {
     title: "Technically Competent",
-    url: "https://test.technicallycompetent.com/",
+    url: "https://technicallycompetent.com/",
     language: "en",
     subtitle: "I dunno something",
     author: {
-        name: "mtf",
+        name: "mtfurlan",
         email: "contact@technicallycompetent.com",
     }
 }
