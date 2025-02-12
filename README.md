@@ -95,6 +95,11 @@ type thoughts:
   * ???
 * fight renderers so html is more human readable?
 * do validation on html after render?
+* https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-current
+* top/bottom margin to your `body`, like `2em auto`
+* fonts, monospace for code blocks or all?
+* Atkinson Hyperlegible Font?
+  * need to work out how to generate font-face and blrrrr
 
 
 ## Design Literature Reivew
